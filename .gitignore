@@ -1,0 +1,42 @@
+.env
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+*.tsbuildinfo
+.pytest_cache/
+.coverage
+*.log
+manufacturing.sql
+superset-meta.sql
+# Environment secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies and build output
+.venv/
+venv/
+node_modules/
+dist/
+build/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+
+# Database dumps
+manufacturing.sql
+superset-meta.sql
