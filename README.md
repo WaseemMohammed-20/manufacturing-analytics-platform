@@ -1,6 +1,10 @@
 # Manufacturing Analytics & Alerting Platform
 
+[![CI](https://github.com/WaseemMohammed-20/manufacturing-analytics-platform/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/WaseemMohammed-20/manufacturing-analytics-platform/actions/workflows/ci.yml)
+
 A local MVP for manufacturing KPIs, equipment health, quality losses, downtime, and explainable threshold alerts. The dashboard reads live API responses; PostgreSQL is the source of truth. The seed creates 20 machines and 10,000 hourly production records, with corresponding defect and downtime facts.
+
+GitHub Actions validates backend syntax and tests, builds the frontend for production, and checks the Docker Compose configuration on pushes and pull requests targeting `main`.
 
 ## Start on Windows
 
